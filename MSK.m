@@ -3,13 +3,6 @@ close all
 clc
 
 %-------------------------------------------------------------------------%
-%                     Name : Karatarakis Evangelos                        %
-%                          A.M. : 2013030003                              %
-%                   Course : TEL513 - Satellite Links                     %
-%            Project 1 : Viterbi algorithm of MSK modulation              %
-%-------------------------------------------------------------------------%
-
-%-------------------------------------------------------------------------%
 %                                PART 1.1                                 %
 %-------------------------------------------------------------------------%
 
@@ -208,6 +201,3 @@ ylabel('BER - Bit Error Rate Measured & Theoretical')
 title('BER - Bit Error Rate vs SNR_{dB}')
 legend('BER - Viterbi','BER - Measured', 'BER - Theoretical','Location','southwest')
 grid on
-
-
-
